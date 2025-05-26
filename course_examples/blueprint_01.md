@@ -63,20 +63,18 @@ Students will explore hands-on exercises using BDT tools and AI-assisted generat
 
 | **Activity 02** | Explore Gherkin/Cucumber BDD Tooling |
 |---------------------------|----------|
-| **Constructive Alignment** | (C2/AI_02 |
+| **Constructive Alignment** | [LO_C02](#LO_C02) / [LO_AI02](#LO_AI02) |
 | **Description** | Students are provided with a couple of simple user stories or requirements as a starting point. They first should try to transform these into a given-when-then scenario by themselves and then ask an AI-Assistant to generate scenarios for them. [P1] |
-| **Resources** | Sample Prompt:  
-`"From now on, act as a requirements engineer. Pay attention to the details in the given natural language requirements that are provided. We are using a Behavior-Driven approach for specifying requirements using the Given-When-Then schema". Provide output of requirements as BDD scenarios and features.`  
-[GENERATE][PERSONA Pattern] |
+| **Resources** | Sample Prompt:  <br> `"From now on, act as a requirements engineer. Pay attention to the details in the given natural language requirements that are provided. We are using a Behavior-Driven approach for specifying requirements using the Given-When-Then schema". Provide output of requirements as BDD scenarios and features.` <br> [GENERATE][PERSONA Pattern] |
 | **Assessment** | *(Not specified)* |
 
 ---
 
 ### 3. Activity: TestStub Generation and Explanation
 
-| **Const. Alignment** | C3/AI3 |
+| **Activity 02** | TestStub Generation and Explanation |
 |---------------------------|----------|
-| **Const. Alignment** | C3/AI3 |
+| **Constructive Alignment** | [LO_C03](#LO_C03) / [LO_AI03](#LO_AI03) |
 | **Description** | Students use the integrated tooling from the IDE (e.g., IntelliJ or Visual Studio Code) and generate JUnit Tests for the scenarios. Afterwards, they can ask an LLM to further explain the TestStubs and how they relate to specific aspects to be tested. |
 | **Resources** | - Guide on using Gherkin/Cucumber in a modern IDE<br>- Sample project with initial set of BDD scenarios |
 | **Assessment** | *(Not specified)* |
@@ -85,8 +83,9 @@ Students will explore hands-on exercises using BDT tools and AI-assisted generat
 
 ### 4. Activity: Test Analysis and Reflection
 
-| **Constructive Alignment** | (C/AI4) |
+| **Activity 02**  | Test Analysis and Reflection |
 |---------------------------|---------|
+| **Constructive Alignment** | [LO_C04](#LO_C04) / [LO_AI04](#LO_AI04) |
 | **Description** | Students receive several scenarios, both AI-generated and manually created, and should review them. Some of these contain inconsistencies or ambiguities. Students are then told to analyze, evaluate, and refine them — checking if they are complete, accurate for a given set of user stories and requirements, and whether they reflect the intended behavior. |
 | **Resources** | - Examples of incomplete BDD scenario descriptions<br>- Flawed AI-generated scenarios |
 | **Assessment** | *(Not specified)* |
@@ -110,6 +109,8 @@ Students will explore hands-on exercises using BDT tools and AI-assisted generat
 
 ---
 
+<br><br>
+
 ## 4. Lecture Reflection
 
 ### Discussion & Critical Thinking
@@ -120,6 +121,8 @@ Students will explore hands-on exercises using BDT tools and AI-assisted generat
 - What risks are associated with blindly trusting AI-generated test cases?
 
 ---
+
+<br><br>
 
 ## 5. Misc
 

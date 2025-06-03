@@ -51,18 +51,54 @@
 
 ### Description
 
-Briefly summarize how AI is integrated within lecture activities, highlighting key instructional strategies (e.g., prompting, code generation, review) and emphasizing student interaction with AI tools.
+Students will explore hands-on exercises using BDT tools and AI-assisted generation of feature files. They’ll work in small teams to translate natural language user stories into testable Gherkin scenarios, both manually and with AI assistance, then run these tests using automation tools.
 
 
 ### Activities
 
 
-| **<1>-Activity**    |  Activity Title | 
+| **1-Activity**    |  Activity Title | 
 |---------------------------|------------------------------------------------|
-| **Constr. Alignment:**  | Clearly indicate which of the previously defined Learning Objectives (Lecture-related and/or AI-related) the activity aligns with. Specify by referencing the exact Learning Objective identifier(s) (e.g., LO_C1, LO_AI2).  |
-| **Description:**   | Provide a description of the activity. Include the instructional goal, tasks students are expected to perform, how AI will be utilized, interaction modes (individual, pairs, group), and the type of student output or deliverable expected.  |
-| **Resources:**   |  - Teaching materials that need to be prepared (e.g. slides, tutorials, sample code, ...) <br>- Sample promts guiding students (e.g. following prompt patterns - https://arxiv.org/abs/2302.11382) |
-| **Assessment:**   |  Describe explicitly how student performance or engagement in the activity will be assessed. |
+| **Constr. Alignment:**  |(C1/AI1) |
+| **Description:**   |    After a brief introduction and presentation of the core  BDD principles and differences to simple Test-Driven Development, students are tasked to explore the individual steps of BDD, the role of the "Three Amigos", and their involvement in the different phases. As an outcome, students have a foundational understanding of what BDD is. Students should use an LLM  to formulate their own questions to query the AI and reflect on the responses in case they want additional information on certain concepts or tasks. |
+| **Resources:**   |  Sample Prompt: “Act as an requirements engineer and instructor, providing clear and concise explanations of Testing, and Behavior-Driven Development. <br>Explain what ...” [EXPLAIN] [Persona Pattern] <br>Lecture-Material Slides: BDD, Testing Basics, and Test-Driven Development|
+| **Assessment:**   |  Short Quizz about BDD basics. |
+
+
+<br><br>
+
+
+
+
+| **2-Activity**    | Explore Gherkin/Cucumber BDD Tooling | 
+|---------------------------|------------------------------------------------|
+| **Constr. Alignment:**  |C2/AI2|
+| **Description:**   |Students are provided with a couple of simple user stories or requirements as a starting point. They first should try to transform these in a given-when-then scenario by themselves and then ask an AI-Assistant to generate scenarios for them.|
+| **Resources:**   |  Sample Prompt: “From now on, act as a requirements engineer. Pay attention to the details in the given natural language requirements  that are provided. We are using a Behavior-Driven approach for specifying requirements using the Given-When-Then schema". Provide output of requirements as BDD scenarios and features". [GENERATE][PERSONA Pattern]|
+| **Assessment:**   | Groups share/discuss their Stories and Scenarios with another groups for review and/or present them during the exercise. |
+
+<br><br>
+
+
+| **3-Activity**    |  TestStub Generation and Explanation | 
+|---------------------------|------------------------------------------------|
+| **Constr. Alignment:**  | C3/AI3 |
+| **Description:**   | Students use the integrated tooling from the IDE (e.g., IntelliJ or VisualStudioCode) and generate JUnit Tests for the scenarios. Afterwards, the can asks an LLM to further explain the TestStubs and how they relate to specific aspects to be tested.  |
+| **Resources:**   | Description on Using Gherkin/Cucumber in an modern IDE
+Sample Project with initial set of BDD scenarios. |
+| **Assessment:**   |  Groups share/discuss their Scenarios and resulting Code Stubs with another groups for review and/or present them during the exercise. |
+
+
+| **4-Activity**    | Test Analysis and Reflection| 
+|---------------------------|------------------------------------------------|
+| **Constr. Alignment:**  | C4/AI4  |
+| **Description:**   | Students receive several scenarios, both AI-generated and manually created, and should review them. Some of which contain inconsistencies or ambiguities.
+Students are then told to analyze, evaluate, and refine them - looking whether they are complete? Accurate for a given set of user stories and requirements, and according to their analysis, whether they reflect the intended behavior?   |
+| **Resources:**   |  -Examples of incomplete BDD Scenario descriptions
+Flawed AI-generated Scenarios |
+| **Assessment:**   |  DGroups share/discuss their Scenarios and resulting Code Stubs with another groups for review. |
+
+
 
 
 <br><br>
@@ -71,25 +107,55 @@ Briefly summarize how AI is integrated within lecture activities, highlighting k
 
 ### Assignment/Homework/Additional Activities
 
-Outline assignments or additional tasks for reinforcing lecture content outside of class. Explicitly link each task to previously defined learning objectives, detailing how AI use is integrated and expectations for students regarding reflection, adaptation, or review of AI outputs.
+
+Mini project: Given a user story set, students must produce Gherkin scenarios, automate them using BDT tools, and evaluate AI-generated scenarios
+
+### Teaching Material & Tools
+- ChatGPT or GitHub Copilot for generating feature files
+- Cucumber with Java/Python
+- Gherkin editor tools (e.g., Pickles, GherkinLint)
+- VS Code with relevant extensions
 
 <br><br>
+
+
+
+
 
 ## 4. Lecture Reflection
 
 ### Discussion
 
-Provide guiding discussion questions that prompt students to reflect on their experience using AI, identifying strengths, limitations, and potential future uses in practice.
+- Can AI tools fully replace manual BDT writing?
+- In what scenarios did the AI help you most?
+- Where did you need to intervene or correct its suggestions?
 
 
 ### Critical Thinking
 
-Include questions that foster deeper critical thinking about ethical implications, risks, trustworthiness, and potential biases introduced by AI, as well as real-world consequences of AI-supported workflows.
+- Examine flawed AI-generated feature file. What assumptions did the AI make?
+- What risks are associated with blindly trusting AI-generated test cases (e.g., particularly for security/safety-critical systems)?
+- Could hallucination cause issues/erroneous tests? How would we detect them or prevent it from happening?
+
+
 
 <br><br>
 
 ## 5. Miscellaneous
 
-### References/Material
 
-Cite tools, academic references, papers, frameworks, or tutorials used in the session. 
+
+- __Cucumber and Gherkin official documentation:__ 
+     * https://cucumber.io/docs
+     
+- __IDE Integration:__
+     * https://plugins.jetbrains.com/plugin/7212-cucumber-for-java 
+     * https://marketplace.visualstudio.com/items?itemName=CucumberOpen.cucumber-official  
+
+- __Sample BDT projects on GitHub:__ 
+     * https://github.com/cucumber/cucumber-java-skeleton 
+
+- __Literature:__ 
+     * https://repo.uni-hannover.de/items/0062c73d-b8bf-47d5-be1e-ebbe2ce4e0b6
+     * Exploring the capability of ChatGPT in test generation (https://doi.org/10.1109/QRS-C60940.2023.00013)
+     * ChatGPT and Software Testing Education: Promises & Perils (https://doi.org/10.1109/ICSTW58534.2023.00078) 

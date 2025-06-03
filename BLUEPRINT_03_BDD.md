@@ -4,6 +4,7 @@
 # AI - Education Blueprint -
 # (BDD Lecture - in Software Quality Course)
 
+<h1 style="background-color:#efefef;"></h1>
 
 ## 1. General Course and Lecture Description
 
@@ -20,6 +21,7 @@
 
 
 <br><br>
+<h1 style="background-color:#d9ead3;"></h1>
 
 ## 2. Lecture Contents  & Learning Objectives
 
@@ -46,6 +48,7 @@
 
 
 <br><br>
+<h1 style="background-color:#d9d2e9;"></h1>
 
 ## 3. Lecture Activities
 
@@ -120,7 +123,7 @@ Mini project: Given a user story set, students must produce Gherkin scenarios, a
 
 
 
-
+<h1 style="background-color:#c9daf8;"></h1>
 
 ## 4. Lecture Reflection
 
@@ -140,6 +143,9 @@ Mini project: Given a user story set, students must produce Gherkin scenarios, a
 
 
 <br><br>
+
+
+<h1 style="background-color:#fff2cc;"></h1>
 
 ## 5. Miscellaneous
 

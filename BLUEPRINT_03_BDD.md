@@ -1,13 +1,14 @@
 
 
 
- <img src="blueprint.svg" alt="Blueprint Icon" width="64" /> 
- <font size=6, color="darkblue">&nbsp;&nbsp;&nbsp;AI - Education Blueprint </font><br><br>
 
+<div style="display: flex; align-items: center; gap: 16px;">
+    <img src="blueprint.svg" alt="Blueprint Icon" width="80" />
+    <span style="font-size: 2em; color: #15396a; font-weight: bold;">AI Education Blueprint</span>
+</div>
+<br><br>
 
 # BDD Lecture - in Software Quality Course
-
-<br>
 
 
 

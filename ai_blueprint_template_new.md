@@ -22,6 +22,7 @@
 
 ## 2. Lecture Contents  & Learning Objectives
 
+``Skill levels: Explain, Apply, Evaluate, and Develop. taken from CS2023, page 30, Table 1``
 
 
 

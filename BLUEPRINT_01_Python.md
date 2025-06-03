@@ -1,10 +1,11 @@
 
+<a href=""><img src="blueprint.svg" alt="Blueprint Icon" width="100"/></a>
 
+<br><br>
 
-# AI - Education Blueprint -
-# (Pandas Lecture - in Introductory Python Course)
+# Pandas Lecture - in Introductory Python Course
 
-
+<br>
 
 ## 1. General Course and Lecture Description
 
@@ -61,7 +62,7 @@ In these activities, students first use an AI assistant to explain pandas DataFr
 
 | **1-Activity**    |  Data Loading & Cleaning | 
 |---------------------------|------------------------------------------------|
-| **Constr. Alignment:**  |([C2](#LO_C02)) |
+| **Constr. Alignment:**  |([LO_C2](#LO_C02)) |
 | **Description:**   |   Distribute a CSV with missing values, duplicate rows, and mixed types (e.g. dates as strings). The students are tasked to load the data from the CSV and perform basic data cleaning operations. This activity can be performed in pairs. |
 | **Resources:**   |  - CSV file with sales data|
 | **Assessment:**   |  Each pair shares their Jupyter Notebook (or Collab file) with another pair for review. |
@@ -74,7 +75,7 @@ In these activities, students first use an AI assistant to explain pandas DataFr
 
 | **2-Activity**    | Filter & Transform | 
 |---------------------------|------------------------------------------------|
-| **Constr. Alignment:**  |([C3](#LO_C03)) |
+| **Constr. Alignment:**  |([LO_C3](#LO_C03)) |
 | **Description:**   |Subset and modify data via conditional filters and column operations. Each pair of students gets a card with a different task to be performed, e.g. "Show me only the rows where revenue > 1000.”, “Create a new column profit = revenue – cost.”|
 | **Resources:**   |  CSV file with sales data, cards with tasks|
 | **Assessment:**   |Each pair shares their Jupyter Notebook (or Colab file) with another pair for review. |
@@ -84,7 +85,7 @@ In these activities, students first use an AI assistant to explain pandas DataFr
 
 | **3-Activity**    |  Group-Aggregate-Visualize | 
 |---------------------------|------------------------------------------------|
-| **Constr. Alignment:**  |([C4](#LO_C04)) |
+| **Constr. Alignment:**  |([LO_C4](#LO_C04)) |
 | **Description:**   | Aggregate by category and create a business-focused plot. The students get a business question, e.g. “Which product category generated the highest average monthly sales?” In pairs they develop the Python code and create a plot suitable for the business question.  |
 | **Resources:**   | CSV file with sales data, set of business-relevant questions |
 | **Assessment:**   |  Each pair prepares a one-minute insight pitch and presents it to the other teams. |
@@ -93,7 +94,7 @@ In these activities, students first use an AI assistant to explain pandas DataFr
 
 | **4-Activity**    |AI-based Explanation of Pandas Concepts| 
 |---------------------------|------------------------------------------------|
-| **Constr. Alignment:**  |([AI1](#LO_AI01)) |
+| **Constr. Alignment:**  |([LO_AI1](#LO_AI01)) |
 | **Description:**   | Use an AI assistant to explore DataFrame structure and operation semantics. Individually, students write a natural-language prompt such as P1. In pairs, they submit their prompt to ChatGPT (or Github Copilot) and read the explanation.  |
 | **Resources:**   |  - Sample Prompt: <br> `“You are a pandas expert and instructor, known for clear and concise explanations of DataFrame internals and operations. Explain what df.dtypes tells me about my DataFrame, and how I might change a column’s dtype.”` [EXPLAIN] [Persona Pattern]  |
 | **Assessment:**   | Each pair quickly presents something they learned that was new or well explained and something they found confusing, wrong, or incomplete. |
@@ -103,7 +104,7 @@ In these activities, students first use an AI assistant to explain pandas DataFr
 
 | **5-Activity**    |AI-based Code Generation| 
 |---------------------------|------------------------------------------------|
-| **Constr. Alignment:**  |([AI2](#LO_AI02)) |
+| **Constr. Alignment:**  |([LO_AI2](#LO_AI02)) |
 | **Description:**   |Use AI to generate, execute, and adapt pandas snippets for concrete tasks. Students get a CSV file and individually prompt the AI—e.g. P2. They paste the AI’s suggestion in their Jupyter notebook, run it, then manually modify one parameter (e.g. change the plot to a horizontal bar, add labels) to fit a new requirement.   |
 | **Resources:**   |  - Sample Prompt: <br> `“Write pandas code to load a CSV, drop duplicate rows, group sales by region, and plot them. I am going to provide a code template. Everything in ALL_CAPS is a placeholder. Please preserve the structure exactly. ”` [GENERATE] [Template Pattern] <br> - CSV file with sales data  |
 | **Assessment:**   | Volunteers briefly show their adapted snippet.|
@@ -112,8 +113,7 @@ In these activities, students first use an AI assistant to explain pandas DataFr
 
 | **6-Activity**    |Review of AI-generated Code| 
 |---------------------------|------------------------------------------------|
-| **Constr. Alignment:**  |([AI
-](#LO_AI03)) |
+| **Constr. Alignment:**  |([LO_AI3](#LO_AI03)) |
 | **Description:**   |Provide groups of students with two notebook cells side-by-side: one hand-written, one AI-generated, solving the same task. Groups annotate both versions—highlighting logical errors, inefficiencies, or wrong assumptions. They collaboratively write a “merged” solution that corrects the AI version.    |
 | **Resources:**   |  Jupyter notebooks |
 | **Assessment:**   | Each group states one best practice for reviewing AI code.|
@@ -126,10 +126,10 @@ In these activities, students first use an AI assistant to explain pandas DataFr
 
 
 A take-home notebook in which students must:
- - Use an AI assistant to generate pandas code for a specified task. ([AI2](#LO_AI02))
+ - Use an AI assistant to generate pandas code for a specified task. ([LO_AI2](#LO_AI02))
  - Integrate and run that code.
- - Critically reflect the generated code. ([AI3](#LO_AI03))
- - Make at least two nontrivial manual adaptations and comment why. ([AI3](#LO_AI03))
+ - Critically reflect the generated code. ([LO_AI3](#LO_AI03))
+ - Make at least two nontrivial manual adaptations and comment why. ([LO_AI3](#LO_AI03))
 
 
 <br><br>

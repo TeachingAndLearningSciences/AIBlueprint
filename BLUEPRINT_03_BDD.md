@@ -65,7 +65,7 @@ Students will explore hands-on exercises using BDT tools and AI-assisted generat
 
 | **1-Activity**    |  Activity Title | 
 |---------------------------|------------------------------------------------|
-| **Constr. Alignment:**  |([C1](#LO_C01)/[AI1](#LO_AI01)) |
+| **Constr. Alignment:**  |([LO_C1](#LO_C01)/[LO_AI1](#LO_AI01)) |
 | **Description:**   |    After a brief introduction and presentation of the core  BDD principles and differences to simple Test-Driven Development, students are tasked to explore the individual steps of BDD, the role of the "Three Amigos", and their involvement in the different phases. As an outcome, students have a foundational understanding of what BDD is. Students should use an LLM  to formulate their own questions to query the AI and reflect on the responses in case they want additional information on certain concepts or tasks. |
 | **Resources:**   |  - Sample Prompt:<br> `“Act as an requirements engineer and instructor, providing clear and concise explanations of Testing, and Behavior-Driven Development. <br>Explain what ...”`<br> [EXPLAIN] [Persona Pattern] <br>- Lecture-Material Slides: BDD, Testing Basics, and Test-Driven Development|
 | **Assessment:**   |  Short Quizz about BDD basics. |
@@ -78,7 +78,7 @@ Students will explore hands-on exercises using BDT tools and AI-assisted generat
 
 | **2-Activity**    | Explore Gherkin/Cucumber BDD Tooling | 
 |---------------------------|------------------------------------------------|
-| **Constr. Alignment:**  |([C2](#LO_C02)/[AI2](#LO_AI02)) |
+| **Constr. Alignment:**  |([LO_C2](#LO_C02)/[LO_AI2](#LO_AI02)) |
 | **Description:**   |Students are provided with a couple of simple user stories or requirements as a starting point. They first should try to transform these in a given-when-then scenario by themselves and then ask an AI-Assistant to generate scenarios for them.|
 | **Resources:**   |  Sample Prompt: <br>`“From now on, act as a requirements engineer. Pay attention to the details in the given natural language requirements  that are provided. We are using a Behavior-Driven approach for specifying requirements using the Given-When-Then schema". Provide output of requirements as BDD scenarios and features"`.  <br>[GENERATE][PERSONA Pattern]|
 | **Assessment:**   | Groups share/discuss their Stories and Scenarios with another groups for review and/or present them during the exercise. |
@@ -88,7 +88,7 @@ Students will explore hands-on exercises using BDT tools and AI-assisted generat
 
 | **3-Activity**    |  TestStub Generation and Explanation | 
 |---------------------------|------------------------------------------------|
-| **Constr. Alignment:**  |([C3](#LO_C03)/[AI3](#LO_AI03)) |
+| **Constr. Alignment:**  |([LO_C3](#LO_C03)/[LO_AI3](#LO_AI03)) |
 | **Description:**   | Students use the integrated tooling from the IDE (e.g., IntelliJ or VisualStudioCode) and generate JUnit Tests for the scenarios. Afterwards, the can asks an LLM to further explain the TestStubs and how they relate to specific aspects to be tested.  |
 | **Resources:**   | - Description on Using Gherkin/Cucumber in an modern IDE <br>- Sample Project with initial set of BDD scenarios. |
 | **Assessment:**   |  Groups share/discuss their Scenarios and resulting Code Stubs with another groups for review and/or present them during the exercise. |
@@ -96,7 +96,7 @@ Students will explore hands-on exercises using BDT tools and AI-assisted generat
 
 | **4-Activity**    | Test Analysis and Reflection| 
 |---------------------------|------------------------------------------------|
-| **Constr. Alignment:**  |([C4](#LO_C04)/[AI4](#LO_AI04)) |
+| **Constr. Alignment:**  |([LO_C4](#LO_C04)/[LO_AI4](#LO_AI04)) |
 | **Description:**   | Students receive several scenarios, both AI-generated and manually created, and should review them. Some of which contain inconsistencies or ambiguities. Students are then told to analyze, evaluate, and refine them - looking whether they are complete? Accurate for a given set of user stories and requirements, and according to their analysis, whether they reflect the intended behavior?   |
 | **Resources:**   |  -Examples of incomplete BDD Scenario descriptions<br> -Flawed AI-generated Scenarios |
 | **Assessment:**   |  Groups share/discuss their Scenarios and resulting Code Stubs with another groups for review. |

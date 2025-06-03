@@ -1,8 +1,15 @@
 
 
 
-# AI - Education Blueprint -
-# (BDD Lecture - in Software Quality Course)
+ <img src="blueprint.svg" alt="Blueprint Icon" width="64" /> 
+ <font size=6, color="darkblue">&nbsp;&nbsp;&nbsp;AI - Education Blueprint </font><br><br>
+
+
+# BDD Lecture - in Software Quality Course
+
+<br>
+
+
 
 
 

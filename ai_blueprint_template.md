@@ -1,124 +1,92 @@
----
-marp: false
 
-theme: blueprint
----
+<a href=""><img src="./resources/blueprint.svg" alt="Blueprint Icon" width="100"/></a>
+
+<br><br>
+
 # AI - Education Blueprint
 
-| **Category Description**  |  |
+<br>
+
+## 1. General Course and Lecture Description
+
+
+|   |  |
 |---------------------------|------------------------------------------------|
-| **ACM Category:**         | Software Development Fundamentals (SDF)       |
-| **Knowledge Unit:**       | SDF-Programming Basics                        |
+| **ACM Category:**         | Identify the course’s category using the ACM 2023 Computing Curricula. xample: Software Engineering, AI Foundations. |
+| **Knowledge Unit:**       | Select the most relevant ACM Knowledge Unit(s). Example: Software Processes, Intelligent Systems.                        |
+| **Course Overview:**       | Provide a short paragraph describing the overall course objectives, themes |
+| **Course Modalities:**       | Indicate modalities used: in-person, hybrid, lecture, lab (course size)      |
+| **Lecture Context:**       | Brief Description about the lecture itself, Describe the specific lecture or topic. E.g., “Using AI to generate and test user stories in BDD.”|
+| **Keywords/Topics:**       | 3-4 core topics/keyworkds/tags      |
 
-| **Lecture Contents**      |  |
+
+
+<br><br>
+
+## 2. Lecture Contents  & Learning Objectives
+
+``Skill levels: Explain, Apply, Evaluate, and Develop. taken from CS2023, page 30, Table 1``
+
+
+
+
+|    | **Lecture-related LO**    |
 |---------------------------|------------------------------------------------|
-| **Learning Objectives**   |  |
-| - **Course-related LO:**  |  |
-| - **AI Related LO:**      |  |
-| **Topics Covered:**       |  |
+| LO  | Formulate clear, concise learning objectives aligned with Bloom’s taxonomy and/or CS2023 skill levels, specifying what students should know, understand, or be able to do after the lecture. Clearly indicate the cognitive level. Skill levels: Four skill levels were adopted for use in CS2023: Explain, Apply, Evaluate, and Develop |
 
-| **Lecture Activities**    |  |
+
+
+|    | **LAI-related LO**    |
 |---------------------------|------------------------------------------------|
-| **Activities/Hands-On:**  |  |
-| **Tools/Technologies:**   |  |
-| **Success Assessment:**   |  |
+| AI_LO   | Define specific AI-focused learning objectives, indicating how students will utilize or engage with AI. Each objective should clearly state the expected interaction with AI (e.g., GENERATE, EXPLAIN, EVALUATE), and be tied explicitly to an appropriate Bloom’s taxonomy level and/or CS2023.|
 
-| **Formative Assessment**  |  |
+
+
+<br><br>
+
+## 3. Lecture Activities
+
+### Description
+
+Briefly summarize how AI is integrated within lecture activities, highlighting key instructional strategies (e.g., prompting, code generation, review) and emphasizing student interaction with AI tools.
+
+
+### Activities
+
+
+| **<1>-Activity**    |  Activity Title | 
 |---------------------------|------------------------------------------------|
-| **Misconceptions**        |  |
-| **Diagnostic Questions**  |  |
+| **Constr. Alignment:**  | Clearly indicate which of the previously defined Learning Objectives (Lecture-related and/or AI-related) the activity aligns with. Specify by referencing the exact Learning Objective identifier(s) (e.g., LO_C1, LO_AI2).  |
+| **Description:**   | Provide a description of the activity. Include the instructional goal, tasks students are expected to perform, how AI will be utilized, interaction modes (individual, pairs, group), and the type of student output or deliverable expected.  |
+| **Resources:**   |  - Teaching materials that need to be prepared (e.g. slides, tutorials, sample code, ...) <br>- Sample promts guiding students (e.g. following prompt patterns - https://arxiv.org/abs/2302.11382) |
+| **Assessment:**   |  Describe explicitly how student performance or engagement in the activity will be assessed. |
 
-| **Lecture Reflection**    |  |
-|---------------------------|------------------------------------------------|
-| **Discussion:**           |  |
-| **Critical Thinking:**    |  |
-| **Reflection:**           |  |
----
+
+<br><br>
 
 
 
+### Assignment/Homework/Additional Activities
+
+Outline assignments or additional tasks for reinforcing lecture content outside of class. Explicitly link each task to previously defined learning objectives, detailing how AI use is integrated and expectations for students regarding reflection, adaptation, or review of AI outputs.
+
+<br><br>
+
+## 4. Lecture Reflection
+
+### Discussion
+
+Provide guiding discussion questions that prompt students to reflect on their experience using AI, identifying strengths, limitations, and potential future uses in practice.
 
 
+### Critical Thinking
 
-## AI-Enhanced Software Development Curriculum
-### **Knowledge Unit: SDF-Software Development Fundamentals**
-**AI-Integrated Module: AI in Software Development**
-- **Learning Objectives**:  
-  - Understand the role of AI in software development.  
-  - Explore AI's impact on software design and architecture.  
-  - Analyze the ethical implications of AI in software development.
+Include questions that foster deeper critical thinking about ethical implications, risks, trustworthiness, and potential biases introduced by AI, as well as real-world consequences of AI-supported workflows.
 
-- **Topics Covered**:
-  - AI in requirements gathering and analysis.  
-  - AI-driven software design patterns.  
-  - Ethical considerations in AI-assisted development.
+<br><br>
 
---- 
+## 5. Miscellaneous
 
+### References/Material
 
-- **Activities**:
-  - Case study: Analyze a project that used AI in its development process.  
-  - Group discussion: Ethical implications of AI in software development.  
-  - Hands-on: Use an AI tool for requirements gathering.
-- **Assessment**:
-  - Written report on the case study.  
-  - Group presentation on ethical considerations.  
-  - Practical assignment using AI for requirements analysis.
-
----
-
-
-### **Knowledge Unit: SDF-Software Development Methodologies**
-**AI-Integrated Module: AI in Agile and DevOps**
-- **Learning Objectives**:  
-  - Understand how AI enhances Agile and DevOps practices.  
-  - Explore AI's role in continuous integration and deployment.  
-  - Analyze the impact of AI on team collaboration and communication.
-- **Topics Covered**:
-  - AI in sprint planning and backlog management.  
-  - AI-driven CI/CD pipelines.  
-  - AI for team collaboration tools.
-- **Activities**:
-  - Simulation: Use AI tools for sprint planning and backlog prioritization.  
-  - Group project: Implement an AI-driven CI/CD pipeline.  
-  - Discussion: How does AI change team dynamics in Agile?
-- **Assessment**:
-  - Group project report on AI-driven CI/CD implementation.  
-  - Peer review of sprint planning simulation.  
-  - Reflection paper on AI's impact on team collaboration.
-### **Knowledge Unit: SDF-Software Development Languages**
-**AI-Integrated Module: AI in Programming Languages**
-- **Learning Objectives**:  
-  - Understand how AI influences programming languages and paradigms.  
-  - Explore AI's role in code generation and optimization.  
-  - Analyze the impact of AI on language design and evolution.
-- **Topics Covered**:
-  - AI-assisted code generation tools.  
-  - AI for code optimization and performance tuning.  
-  - The future of programming languages with AI.
-- **Activities**:
-  - Hands-on: Use an AI tool for code generation in a specific language.  
-  - Group discussion: The future of programming languages in the age of AI.  
-  - Case study: Analyze a language that has integrated AI features.
-- **Assessment**:           
-  - Practical assignment on AI-assisted code generation.  
-  - Group presentation on the future of programming languages.  
-  - Written report on the case study of a language with AI features.
-### **Knowledge Unit: SDF-Software Development Processes**
-**AI-Integrated Module: AI in Software Development Processes**              
-- **Learning Objectives**:  
-  - Understand how AI enhances software development processes.  
-  - Explore AI's role in process automation and optimization.  
-  - Analyze the impact of AI on software quality assurance.
-- **Topics Covered**:
-  - AI in process automation tools.  
-  - AI-driven software testing and quality assurance.  
-  - The future of software development processes with AI.
-- **Activities**:
-  - Hands-on: Use an AI tool for process automation in a project.  
-  - Group project: Implement AI-driven testing in a software application.  
-  - Discussion: The future of software development processes with AI.
-- **Assessment**:
-  - Group project report on AI-driven testing implementation.  
-  - Peer review of process automation assignment.  
-  - Reflection paper on the future of software development processes with AI.
+Cite tools, academic references, papers, frameworks, or tutorials used in the session. 

@@ -1,5 +1,5 @@
 
-<img src="blueprint.svg" alt="Blueprint Icon" width="100"/>
+<a href=""><img src="blueprint.svg" alt="Blueprint Icon" width="100"/></a>
 
 <br><br>
 

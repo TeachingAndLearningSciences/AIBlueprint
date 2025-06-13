@@ -44,10 +44,10 @@
 
 |    | **AI-related LO**    |Level   | AI Usage |
 |---------------------------|------------------------------------------------|----|---|
-| <a name="LO_AI01"></a>LO_AI1  | Students can use AI tools to generate checklists for assessing the conformance of data structures (e.g., AVL trees) to their defining properties. | [EXPLAIN]|[Explain]|
-| <a name="LO_AI02"></a>LO_AI2  | Students can employ AI tools to generate visual representations of tree structures and modify these.  |[APPLY] |[Generate]|
-|<a name="LO_AI03"></a>LO_AI3 | Students can leverage AI tools to validate their assumptions and seek clarification on tree concepts, thereby resolving misunderstandings. |[EXPLAIN]|[Explain] |
-|<a name="LO_AI04"></a> LO_AI4  |  Students can utilize AI tools to review their source code and receive suggestions for its refinement (e.g., regarding style, correctness, or efficiency).   | [EVALUATE] |[Refine]|
+| <a name="LO_AI01"></a>LO_AI1  | Students can use AI tools to generate checklists for assessing the conformance of data structures (e.g., AVL trees) to their defining properties. | [EXPLAIN]|[EXPLAIN]|
+| <a name="LO_AI02"></a>LO_AI2  | Students can employ AI tools to generate visual representations of tree structures and modify these.  |[APPLY] |[GENERATE]|
+|<a name="LO_AI03"></a>LO_AI3 | Students can leverage AI tools to validate their assumptions and seek clarification on tree concepts, thereby resolving misunderstandings. |[EXPLAIN]|[EXPLAIN] |
+|<a name="LO_AI04"></a> LO_AI4  |  Students can utilize AI tools to review their source code and receive suggestions for its refinement (e.g., regarding style, correctness, or efficiency).   | [EVALUATE] |[REFINE]|
 
 
 

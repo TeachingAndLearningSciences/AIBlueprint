@@ -42,7 +42,7 @@
 
 
 
-|    | **LAI-related LO**    |Level   | AI Usage |
+|    | **AI-related LO**    |Level   | AI Usage |
 |---------------------------|------------------------------------------------|----|---|
 | <a name="LO_AI01"></a>LO_AI1  |  Students are able to use an AI assistant to query for explanations about the core concepts, phases, and elements of BDD and respective tools. | [EXPLAIN]|[Explain]|
 | <a name="LO_AI02"></a>LO_AI2  | Students are able to draft Gherkin feature files from user stories or requirements in the given-when-then format  |[APPLY] |[Generate]|

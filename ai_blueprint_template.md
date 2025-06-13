@@ -36,7 +36,7 @@
 
 
 
-|    | **LAI-related LO**    |
+|    | **AI-related LO**    |
 |---------------------------|------------------------------------------------|
 | AI_LO   | Define specific AI-focused learning objectives, indicating how students will utilize or engage with AI. Each objective should clearly state the expected interaction with AI (e.g., GENERATE, EXPLAIN, EVALUATE), and be tied explicitly to an appropriate Bloom’s taxonomy level and/or CS2023.|
 

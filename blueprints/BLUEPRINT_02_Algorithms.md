@@ -44,7 +44,7 @@
 
 |    | **LAI-related LO**    |Level   | AI Usage |
 |---------------------------|------------------------------------------------|----|---|
-| <a name="LO_AI01"></a>LO_AI1  | tudents can use AI tools to generate checklists for assessing the conformance of data structures (e.g., AVL trees) to their defining properties. | [EXPLAIN]|[Explain]|
+| <a name="LO_AI01"></a>LO_AI1  | Students can use AI tools to generate checklists for assessing the conformance of data structures (e.g., AVL trees) to their defining properties. | [EXPLAIN]|[Explain]|
 | <a name="LO_AI02"></a>LO_AI2  | Students can employ AI tools to generate visual representations of tree structures and modify these.  |[APPLY] |[Generate]|
 |<a name="LO_AI03"></a>LO_AI3 | Students can leverage AI tools to validate their assumptions and seek clarification on tree concepts, thereby resolving misunderstandings. |[EXPLAIN]|[Explain] |
 |<a name="LO_AI04"></a> LO_AI4  |  Students can utilize AI tools to review their source code and receive suggestions for its refinement (e.g., regarding style, correctness, or efficiency).   | [EVALUATE] |[Refine]|
@@ -80,8 +80,7 @@ Students start the lecture by self-critically analyzing their prior knowledge us
 | **Constr. Alignment:**  |([LO_AI2](#LO_AI02)) |
 | **Description:**   |Students will use AI tools to render initial DOT graph descriptions. They will then instruct the AI to modify these DOT structures and observe the resulting visual changes to understand the language.|
 | **Resources:**   |  - DOT graph provided via LMS (Learning Management System)<br> - Initial prompt for refinement via LMS ("... Provide your visualization in a single, self-contained HTML file")<br> - Tool use: Chatbot with "Canvas" functionality, i.e., immediate display of generated HTML files.|
-| **Assessment:**   | Monitor if students can successfully use AI to render and modify DOT strings. Spot-check visualizations and ask students to explain a modification they made (or more specifically how they instructed the AI) and its effect.
- |
+| **Assessment:**   | Monitor if students can successfully use AI to render and modify DOT strings. Spot-check visualizations and ask students to explain a modification they made (or more specifically how they instructed the AI) and its effect.|
 
 <br><br>
 
@@ -148,7 +147,7 @@ A brief report detailing how they used an AI tool to review/refine their code, i
 - What do you see as the potential pitfalls or limitations of relying on AI for understanding or implementing things like AVL trees? 
 - Where should we be cautious?
 - Could AI help in designing new data structures or optimizing existing algorithms? What would be needed for that?
-- How can we ensure we are still developing deep understanding and not just 'outsourcing thinking' to AI when learning these topics?
+- How can we ensure we are still developing a deep understanding and not just 'outsourcing thinking' to AI when learning these topics?
 
 
 <br><br>

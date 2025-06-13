@@ -42,7 +42,7 @@
 
 
 
-|    | **LAI-related LO**    |Level   | AI Usage |
+|    | **AI-related LO**    |Level   | AI Usage |
 |---------------------------|------------------------------------------------|----|---|
 | <a name="LO_AI01"></a>LO_AI1  | Students can use AI tools to generate checklists for assessing the conformance of data structures (e.g., AVL trees) to their defining properties. | [EXPLAIN]|[Explain]|
 | <a name="LO_AI02"></a>LO_AI2  | Students can employ AI tools to generate visual representations of tree structures and modify these.  |[APPLY] |[Generate]|

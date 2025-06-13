@@ -42,9 +42,9 @@
 
 |    | **AI-related LO**    |Level   | AI Usage |
 |---------------------------|------------------------------------------------|----|---|
-| <a name="LO_AI01"></a>LO_AI1  | Students are able to use an AI assistant to explore and explain the structure of a pandas DataFrame—including its index, columns, and dtypes—and to describe the effects of common operations. | [EXPLAIN]|[Explain]|
-| <a name="LO_AI02"></a>LO_AI2  |Students are able to use an AI assistant to generate, execute, and adapt pandas code for concrete data-analysis tasks—such as loading a CSV, cleaning the data, grouping, and visualizing—and integrate those AI-provided code snippets into their own Jupyter notebooks.   |[APPLY] |[Generate]|
-|<a name="LO_AI03"></a>LO_AI3 |Students are able to critically assess AI-generated pandas workflows by comparing the AI’s proposed approach against a hand-crafted solution—identifying any errors, inefficiencies, or questionable assumptions—and refining the code to ensure correctness. |[EVALUATE]|[Evaluate] |
+| <a name="LO_AI01"></a>LO_AI1  | Students are able to use an AI assistant to explore and explain the structure of a pandas DataFrame—including its index, columns, and dtypes—and to describe the effects of common operations. | [EXPLAIN]|[EXPLAIN]|
+| <a name="LO_AI02"></a>LO_AI2  |Students are able to use an AI assistant to generate, execute, and adapt pandas code for concrete data-analysis tasks—such as loading a CSV, cleaning the data, grouping, and visualizing—and integrate those AI-provided code snippets into their own Jupyter notebooks.   |[APPLY] |[GENERATE]|
+|<a name="LO_AI03"></a>LO_AI3 |Students are able to critically assess AI-generated pandas workflows by comparing the AI’s proposed approach against a hand-crafted solution—identifying any errors, inefficiencies, or questionable assumptions—and refining the code to ensure correctness. |[EVALUATE]|[EVALUATE] |
 
 
 

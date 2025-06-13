@@ -14,9 +14,9 @@
 |---------------------------|------------------------------------------------|
 | **ACM Category:**         | Software Development Fundamentals (SDF)|
 | **Knowledge Unit:**       | SDF-Programming Basics  |
-| **Course Overview:**       |The introductory Python for Business Administration course offers students a foundation in core programming concepts—such as variables, control flow, and functions—based on examples from a business context. It emphasizes practical problem-solving skills and data-driven decision making within a business context. |
+| **Course Overview:**       |The introductory Python for Business Administration course offers students a foundation in core programming concepts, such as variables, control flow, and functions, based on examples from a business context. It emphasizes practical problem-solving skills and data-driven decision-making within a business context. |
 | **Course Modalities:**       | Lab 90 min    |
-| **Lecture Context:**       | The pandas lecture introduces students to the pandas library’s key data structures (Series and DataFrame) and fundamental operations—such as filtering, grouping, basic aggregation, plotting—enabling them to efficiently manipulate and analyze tabular data relevant to business scenarios.|
+| **Lecture Context:**       | The pandas lecture introduces students to the pandas library’s key data structures (Series and DataFrame) and fundamental operations, such as filtering, grouping, basic aggregation, plotting—enabling them to efficiently manipulate and analyze tabular data relevant to business scenarios.|
 | **Keywords/Topics:**       |Python <br> Pandas <br> Data Analytics    |
 
 
@@ -33,8 +33,8 @@
 |    | **Lecture-related LO**    | Level | 
 |---------------------------|------------------------------------------------|----|
 | <a name="LO_C01"></a>LO_C1  | Students are able to describe the structure and purpose of a pandas DataFrame, explaining its components (index, columns, dtypes) and the role of key operations (loading, cleaning, filtering, grouping, plotting) within a business‐analytics workflow.  | [EXPLAIN]|
-| <a name="LO_C02"></a>LO_C2  | SStudents are able to load tabular data into a DataFrame and perform basic cleaning operations to prepare it for analysis.|[APPLY]|
-| <a name="LO_C03"></a>LO_C3  | SStudents are able to subset and transform their DataFrame by applying conditional filters and selecting columns. |[APPLY]|
+| <a name="LO_C02"></a>LO_C2  | Students are able to load tabular data into a DataFrame and perform basic cleaning operations to prepare it for analysis.|[APPLY]|
+| <a name="LO_C03"></a>LO_C3  | Students are able to subset and transform their DataFrame by applying conditional filters and selecting columns. |[APPLY]|
 | <a name="LO_C04"></a>LO_C4  | Students are able to group and aggregate data and then generate basic plots to communicate key business insights.  | [APPLY]|
 
 <br><br>
@@ -54,7 +54,7 @@
 
 ### Description
 
-In these activities, students first use an AI assistant to explain pandas DataFrame structures by developing natural‐language prompts and reviewing the AI’s responses. Next, they individually generate, run, and modify AI‐created pandas code and share their adaptations. Finally, in small groups they compare side‐by‐side AI‐generated and hand‐written solutions, annotate errors or inefficiencies, co‐create a refined “merged” solution, and discuss a best practice for reviewing AI code.
+In these activities, students first use an AI assistant to explain pandas DataFrame structures by developing natural‐language prompts and reviewing the AI’s responses. Next, they individually generate, run, and modify AI‐created pandas code and share their adaptations. Finally, in small groups, they compare side‐by‐side AI‐generated and hand‐written solutions, annotate errors or inefficiencies, co‐create a refined “merged” solution, and discuss a best practice for reviewing AI code.
 
 
 ### Activities

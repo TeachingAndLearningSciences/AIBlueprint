@@ -16,7 +16,7 @@
 |   |  |
 |---------------------------|------------------------------------------------|
 | **ACM Category:**         | Algorithmic Foundations (AL)|
-| **Knowledge Unit:**       | AL-Foundational |
+| **Knowledge Unit:**       | Foundational Data Structures and Algorithms |
 | **Course Overview:**       | Algorithms and Data Structures 2 provides students with advanced knowledge of algorithms and data structures, such as specialized tree variants and hashing. Students will learn graph principles, implementation, applications, and advanced algorithms for analyzing graph structures. Ultimately, they will be able to adapt and combine existing algorithms and data structures to derive problem-specific solutions. |
 | **Course Modalities:**       | Lab, 90 min      |
 | **Lecture Context:**       | The lecture introduces height-balanced trees, exemplified by AVL trees. Students will revisit binary trees, understand the height-balance property, and learn to implement AVL trees. Key outcomes include the ability to assess AVL tree validity (with justification) and perform operations to maintain or restore all AVL properties.|
